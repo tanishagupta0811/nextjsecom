@@ -1,7 +1,7 @@
 .product-container{
     max-width: 1600px;
     width: 70vw;
-    height: 70vh;
+    height: auto;
     display: grid;
     grid-template-columns:1fr 1fr;
     background-color: black;
@@ -15,10 +15,10 @@
 .details{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem    ;
+    /* margin-top: 3rem    ; */
     justify-content: start;
     align-items: center ;
-    padding: 2rem;
+    padding: 30px;
 }
 .img-container{
     width: 90%;

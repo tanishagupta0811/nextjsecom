@@ -99,10 +99,10 @@ export default function Product({ params }) {
           )}
         </div>
       </div>
-      <div className="mt-3 text-right w-[80vw] text-2xl font-bold">
+      {/* <div className="mt-3 text-right w-[80vw] text-2xl font-bold">
         Rmended Products
-      </div>
-      <Autoscroll />
+      </div> */}
+      {/* <Autoscroll /> */} 
     </div>
   );
 }

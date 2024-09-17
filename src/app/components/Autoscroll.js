@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
-import "../styles/scroll.css"; // Import the CSS file
+import "./Carousel.css"; // Import the CSS file
 
 export default function Autoscroll() {
     const { loading, products, error } = useSelector((state) => state.productSlice);

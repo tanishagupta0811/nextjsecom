@@ -15,8 +15,8 @@ export default function Mainheader (){
     return(
         <div className="w-full h-[auto] flex justify-around p-3">
       <div className="left flex gap-2 items-center">
-        {/* <Image src='/images/shopping-bag.png' height={100} width={25} alt="Logo" /> */}
-        <div>ECommerce</div>
+        <Image src='/images/shopping-bag.png' height={100} width={25} alt="Logo" />
+        {/* <div>ECommerce</div> */}
        
       </div>
       <div>

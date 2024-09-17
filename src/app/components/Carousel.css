@@ -1,0 +1,35 @@
+.carousel-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel-item {
+    padding: 10px;
+}
+
+.carousel-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.shopping-info {
+    padding: 10px;
+}
+
+.product-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: green;
+}
